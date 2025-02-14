@@ -17,4 +17,5 @@ urlpatterns = [
     path(r'login/pdf/<int:res_id>/', guest_view.generate_pdf, name='pdf'),
     path(r'login/bookings/', guest_view.bookings, name='bookings'),
     path('logout/', guest_view.logout_view, name='logout'),
+    #path(r'login/pdf/<int:res_id>/', guest_view.generate_pdf, name='pdf'),
 ]
